@@ -1,5 +1,5 @@
 //! moment.js locale configuration
-//! locale : Ukrainian [uk]
+//! locale : Ukrainian [ua]
 //! author : zemlanin : https://github.com/zemlanin
 //! Author : Menelion Elensúle : https://github.com/Oire
 
@@ -52,7 +52,7 @@ function processHoursFunction(str) {
     };
 }
 
-var uk = moment.defineLocale('uk', {
+var ua = moment.defineLocale('ua', {
     months : {
         'format': 'січня_лютого_березня_квітня_травня_червня_липня_серпня_вересня_жовтня_листопада_грудня'.split('_'),
         'standalone': 'січень_лютий_березень_квітень_травень_червень_липень_серпень_вересень_жовтень_листопад_грудень'.split('_')
@@ -141,6 +141,6 @@ var uk = moment.defineLocale('uk', {
     }
 });
 
-return uk;
+return ua;
 
 })));
